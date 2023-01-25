@@ -1,5 +1,5 @@
 # Reinforcement_learning
-This is the 4th project of EECS 738. We consider a game environment, and formulate ideas on how to use Reinforcement learning. I have use the Gym library to visualize a taxi driver environment with passenger pick up points and drop-off point. The goal will be to make the drive pick up the passenger and drop of at the required location all by using the optimal path. 
+This is the 4th project of Machine Learning. We consider a game environment, and formulate ideas on how to use Reinforcement learning. I have used the Gym library to visualize a taxi driver environment with passenger pick up points and drop-off point. The goal will be to make the driver pick up the passenger and drop of at the required location all by using the optimal path. 
 
 # Implementation.
 I have implemented a Markov Decision Process. It consist of an environment, agent, states, reward, policy and discount factor. The environment provides the agent with a reward for being in a state and taking an action. The goal of the process is to maximize the rewards. There will be negative rewards for incorrect actions. The rewards are a motivator for the agent and helps it learn and make correct decisions. 
